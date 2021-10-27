@@ -15,5 +15,5 @@ jobs:
       id: Bridgecrew
       uses: checkpoint/shiftleft@master
       with:
-        api-key: ${{ secrets.CHKP_CLOUDGUARD_ID, secrets.CHKP_CLOUDGUARD_SECRET }}
+        api-key: ${{ secrets.CHKP_CLOUDGUARD_ID, secrets }}
    
