@@ -1,0 +1,19 @@
+name: Shiftleft
+on:
+  push:
+    branches:
+      - master
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [3.8]
+    steps:
+    - uses: actions/checkout@v2
+    - name: Run shiftleft
+      id: Bridgecrew
+      uses: checkpoint/shiftleft@master
+      with:
+        api-key: ${{ secrets.CHKP_CLOUDGUARD_ID, secrets.CHKP_CLOUDGUARD_SECRET }}
+   
