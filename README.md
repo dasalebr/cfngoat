@@ -1,4 +1,6 @@
 # Cfngoat - Vulnerable Cloudformation Template
+
+[![HIPAA](https://app.soluble.cloud/api/v1/public/badges/8366ac64-4f56-43ab-bfdb-e319255db637.svg)](https://app.soluble.cloud/repos/details/github.com/dasalebr/cfngoat)  [![IaC](https://app.soluble.cloud/api/v1/public/badges/9919e710-6064-45de-9866-b77c8286bcdd.svg)](https://app.soluble.cloud/repos/details/github.com/dasalebr/cfngoat)  [![CIS](https://app.soluble.cloud/api/v1/public/badges/0b0e20ac-5c7c-455e-9779-dc512f587ef8.svg)](https://app.soluble.cloud/repos/details/github.com/dasalebr/cfngoat)  
 [![Maintained by Bridgecrew.io](https://img.shields.io/badge/maintained%20by-bridgecrew.io-blueviolet)](https://bridgecrew.io/?utm_source=github&utm_medium=organic_oss&utm_campaign=cfngoat)
 [![Infrastructure Tests](https://www.bridgecrew.cloud/badges/github/bridgecrewio/cfngoat/general)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=bridgecrewio%2Fcfngoat&benchmark=INFRASTRUCTURE+SECURITY)
 [![CIS AWS](https://www.bridgecrew.cloud/badges/github/bridgecrewio/cfngoat/cis_aws)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=bridgecrewio%2Fcfngoat&benchmark=CIS+AWS+V1.2)
